@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import VideoApp from './VideoChat/videoChat';
 ReactDOM.render(
   <React.StrictMode>
-    <App text= "https://www.tacklhealth.com/tackl-corporate-testing" />
+    <VideoApp />
+    {/* <App text= "https://www.tacklhealth.com/tackl-corporate-testing" /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
